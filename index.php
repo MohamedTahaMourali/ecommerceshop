@@ -43,69 +43,22 @@ include("includes/main.php");
       <div class="footer-nav">
         <div class="container clearfix">
 
-          <div class="footer-nav__col footer-nav__col--info">
-            <div class="footer-nav__heading">Information</div>
-            <ul class="footer-nav__list">
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">The brand</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Local stores</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Customer service</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Privacy &amp; cookies</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Site map</a>
-              </li>
-            </ul>
-          </div>
+          
 
-          <div class="footer-nav__col footer-nav__col--whybuy">
-            <div class="footer-nav__heading">Why buy from us</div>
-            <ul class="footer-nav__list">
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Shipping &amp; returns</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Secure shipping</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Testimonials</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Award winning</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Ethical trading</a>
-              </li>
-            </ul>
-          </div>
 
           <div class="footer-nav__col footer-nav__col--account">
             <div class="footer-nav__heading">Your account</div>
             <ul class="footer-nav__list">
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Sign in</a>
+                <a href="checkout.php" class="footer-nav__link">Sign in</a>
               </li>
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Register</a>
+                <a href="customer_register.php" class="footer-nav__link">Register</a>
               </li>
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">View cart</a>
+                <a href="checkout.php" class="footer-nav__link">View cart</a>
               </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">View your lookbook</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Track an order</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Update information</a>
-              </li>
+             
             </ul>
           </div>
 
@@ -113,8 +66,8 @@ include("includes/main.php");
           <div class="footer-nav__col footer-nav__col--contacts">
             <div class="footer-nav__heading">Contact details</div>
             <address class="address">
-            Head Office: Avenue Fashion.<br>
-            180-182 Regent Street, London.
+            Mohamed Store.<br>
+            Sfax Tunisie.
           </address>
             <div class="phone">
               Telephone:
@@ -122,7 +75,7 @@ include("includes/main.php");
             </div>
             <div class="email">
               Email:
-              <a href="mailto:support@yourwebsite.com" class="email__addr">support@yourwebsite.com</a>
+              <a href="mailto:mohamedtaha.morali@gmail.com" class="email__addr">mohamedtaha.morali@gmail.com</a>
             </div>
           </div>
 
@@ -133,7 +86,7 @@ include("includes/main.php");
         <div class="container clearfix">
 
           <div class="banner-award">
-            <span>Award winner</span><br> Fashion awards 2016
+            <span>Award winner</span><br> Best Seller 2021
           </div>
 
           <div class="banner-social">
@@ -158,15 +111,15 @@ include("includes/main.php");
         <div class="container clearfix">
 
           <div class="copyright">
-            &copy; 2018 Avenue Fashion&trade;
+            &copy; 2022 Mohamed Store&trade;
           </div>
 
           <div class="developer">
-            Dev by Yasser Dalouzi
+            Dev by Mohamed Taha Mourali
           </div>
 
           <div class="designby">
-            Design by Yasser Dalouzi
+            Design by Mohamed Taha Mourali
           </div>
 
         </div>

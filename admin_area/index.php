@@ -77,7 +77,8 @@ $count_pending_orders = mysqli_num_rows($run_pending_orders);
 <link href="css/style.css" rel="stylesheet">
 
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" >
-<link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/2484/9148/files/SDQSDSQ_32x32.png?v=1511436147" type="image/png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+
 
 </head>
 
