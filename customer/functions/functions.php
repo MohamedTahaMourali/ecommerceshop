@@ -153,13 +153,13 @@ echo "
 
 
 
-
+$ip_add = 12;
 
 function getProcat(){
 
   global $db;
   
-  $get_products = "select * from products  where p_cat_id='12'";
+  $get_products = "select * from products  ip_add='$ip_add'";
   
   $run_products = mysqli_query($db,$get_products);
   
