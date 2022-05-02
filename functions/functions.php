@@ -92,6 +92,21 @@ while($row_products=mysqli_fetch_array($run_products)){
 $pro_id = $row_products['product_id'];
 
 $pro_title = $row_products['product_title'];
+$etatstock = "repture";
+
+$pro_quantity = $row_products['product_quantity'];
+
+if ($pro_quantity <= 0){
+  $pro_quantity = "repture de stock";
+  $etatstock = "repture";
+  
+
+}else{
+  $pro_quantity = "en stock";
+  $etatstock = "enstock";
+    
+}
+
 
 $pro_price = $row_products['product_price'];
 
@@ -175,6 +190,8 @@ echo "
 <h3><a href='$pro_url' >$pro_title</a></h3>
 
 <p class='price' > $product_price $product_psp_price </p>
+
+<p class='$etatstock' > $pro_quantity </p>
 
 <p class='buttons' >
 

@@ -61,7 +61,7 @@ else {
 <th>Product Title</th>
 <th>Product Image</th>
 <th>Product Price</th>
-<th>Product sold</th>
+<th>Product Quantity</th>
 <th>Product Keywords</th>
 <th>Product Date</th>
 <th>Product Delete</th>
@@ -93,6 +93,8 @@ $pro_image = $row_pro['product_img1'];
 
 $pro_price = $row_pro['product_price'];
 
+$pro_quantity = $row_pro['product_quantity'];
+
 $pro_keywords = $row_pro['product_keywords'];
 
 $pro_date = $row_pro['date'];
@@ -110,16 +112,8 @@ $i++;
 <td><img src="product_images/<?php echo $pro_image; ?>" width="60" height="60"></td>
 
 <td> <?php echo $pro_price; ?> TND</td>
+<td> <?php echo $pro_quantity; ?></td>
 
-<td>
-<?php
-
-$get_sold = "select * from pending_orders where product_id='$pro_id'";
-$run_sold = mysqli_query($con,$get_sold);
-$count = mysqli_num_rows($run_sold);
-echo $count;
-?>
-</td>
 
 <td> <?php echo $pro_keywords; ?> </td>
 

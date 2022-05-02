@@ -98,6 +98,8 @@ while($row_products=mysqli_fetch_array($run_products)){
 $pro_id = $row_products['product_id'];
 
 $pro_title = $row_products['product_title'];
+$pro_quantity = $row_products['product_quantity'];
+
 
 $pro_price = $row_products['product_price'];
 

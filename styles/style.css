@@ -747,4 +747,8 @@ body {
     
     
     }
+
+
+    p.repture {width: 100%;text-align: center;color: red;}
+    p.enstock {width: 100%;text-align: center;color: green;}
     
