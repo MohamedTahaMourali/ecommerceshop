@@ -394,7 +394,7 @@ if($pro_label == "Sale" or $pro_label == "Gift"){
 
 $product_price = "<del> $pro_price TND </del>";
 
-$product_psp_price = "| $$pro_psp_price";
+$product_psp_price = "| $pro_psp_price TND";
 
 }
 else{
