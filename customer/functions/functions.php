@@ -159,7 +159,7 @@ function getProcat12(){
 
   global $db;
   
-  $get_products = "select * from products  where p_cat_id=12";
+  $get_products = "select * from products  where p_cat_id='12'";
   
   $run_products = mysqli_query($db,$get_products);
   
