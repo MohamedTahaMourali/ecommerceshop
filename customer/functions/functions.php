@@ -155,7 +155,7 @@ echo "
 
 
 
-function getProcat12(){
+function getProcat(){
 
   global $db;
   

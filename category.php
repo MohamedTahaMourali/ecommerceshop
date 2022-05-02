@@ -30,7 +30,7 @@ include("includes/main.php");
 
     <?php
 
-    getProcat12();
+    getProcat();
 
     ?>
 
