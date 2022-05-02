@@ -358,9 +358,9 @@ echo "
 
 <p class='price'>
 
-Product Price : <del> $$pro_price </del><br>
+Product Price : <del> $pro_price TND </del><br>
 
-Product sale Price : $$pro_psp_price
+Product sale Price : $pro_psp_price TND
 
 </p>
 
@@ -373,7 +373,7 @@ echo "
 
 <p class='price'>
 
-Product Price : $$pro_price
+Product Price : $pro_price TND
 
 </p>
 
@@ -391,9 +391,9 @@ echo "
 
 <p class='price'>
 
-Bundle Price : <del> $$pro_price </del><br>
+Bundle Price : <del> $pro_price TND</del><br>
 
-Bundle sale Price : $$pro_psp_price
+Bundle sale Price : $pro_psp_price TND
 
 </p>
 
@@ -406,7 +406,7 @@ echo "
 
 <p class='price'>
 
-Bundle Price : $$pro_price
+Bundle Price : $pro_price TND
 
 </p>
 
@@ -655,7 +655,7 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> $pro_price TND </del>";
 
 $product_psp_price = "| $$pro_psp_price";
 
@@ -664,7 +664,7 @@ else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "$pro_price TND";
 
 }
 
@@ -797,7 +797,7 @@ $pro_url = $row_products['product_url'];
 
 if($pro_label == "Sale" or $pro_label == "Gift"){
 
-$product_price = "<del> $$pro_price </del>";
+$product_price = "<del> $pro_price TND </del>";
 
 $product_psp_price = "| $$pro_psp_price";
 
@@ -806,7 +806,7 @@ else{
 
 $product_psp_price = "";
 
-$product_price = "$$pro_price";
+$product_price = "$pro_price TND";
 
 }
 
