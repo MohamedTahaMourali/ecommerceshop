@@ -929,7 +929,36 @@ img {
   background-position: 50%
 }
 
-.hero .btn1 {
+.smartphones {
+  padding-top: 300px;
+  padding-bottom: 140px;
+  color: #fff;
+  background: #666 url(../images/smartphones_banner.png) no-repeat;
+  background-size: cover;
+  background-position: 50%
+}
+
+.bureautiques {
+  padding-top: 300px;
+  padding-bottom: 140px;
+  color: #fff;
+  background: #666 url(../images/bureautiques_banner.png) no-repeat;
+  background-size: cover;
+  background-position: 50%
+}
+.laptop {
+  padding-top: 300px;
+  padding-bottom: 140px;
+  color: #fff;
+  background: #666 url(../images/laptop_banner.png) no-repeat;
+  background-size: cover;
+  background-position: 50%
+}
+
+
+
+
+.hero .btn1 ,.smartphones .btn1,.bureautiques .btn1,.laptop .btn1 {
   text-decoration: none;
   text-align: center;
   color: gray;

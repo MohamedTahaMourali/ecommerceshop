@@ -74,15 +74,20 @@
           <ul class="categories">
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Mens
-                <i class="icon-down-open-1"></i>
+              <a class="categories__link" href="bureau.php">
+                Ordinateur de bureau
               </a>
               </li>
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Womens
+              <a class="categories__link" href="portatif.php">
+                Ordinateur portable
+            
+              </a>
+            </li>
+            <li class="categories__item">
+              <a class="categories__link" href="telephone.php">
+                Smartphones
             
               </a>
             </li>

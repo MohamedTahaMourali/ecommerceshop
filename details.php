@@ -231,7 +231,7 @@ $product_price = $pro_price;
 
 }
 
-$query = "insert into cart (p_id,ip_add,qty,p_price,size) values ('$p_id','$ip_add','$product_qty','$product_price','$product_size')";
+$query = "insert into cart (p_id,ip_add,qty,p_price,size) values ('$p_id','$ip_add','$product_qty','$product_price','')";
 
 $run_query = mysqli_query($db,$query);
 
@@ -274,26 +274,6 @@ if($status == "product"){
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
-
-<label class="col-md-5 control-label" >Product Size</label>
-
-<div class="col-md-7" ><!-- col-md-7 Starts -->
-
-<select name="product_size" class="form-control" >
-
-<option>Select a Size</option>
-<option>Small</option>
-<option>Medium</option>
-<option>Large</option>
-
-
-</select>
-
-</div><!-- col-md-7 Ends -->
-
-
-</div><!-- form-group Ends -->
 
 <?php }else { ?>
 
@@ -320,26 +300,7 @@ if($status == "product"){
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Bundle Size</label>
-
-<div class="col-md-7" ><!-- col-md-7 Starts -->
-
-<select name="product_size" class="form-control" >
-
-<option>Select a Size</option>
-<option>Small</option>
-<option>Medium</option>
-<option>Large</option>
-
-
-</select>
-
-</div><!-- col-md-7 Ends -->
-
-
-</div><!-- form-group Ends -->
 
 
 <?php } ?>

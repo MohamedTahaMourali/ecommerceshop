@@ -12,13 +12,12 @@ include("includes/main.php");
 
   <!-- Cover -->
   <main>
-    <div class="hero">
-      <a href="shop.php" class="btn1">View all products
-</a>
+    <div class="smartphones">
+      <a href="shop.php" class="btn1">View all products</a>
     </div>
     <!-- Main -->
     <div class="wrapper">
-            <h1>Featured Collection<h1>
+            <h1>Smartphones<h1>
             
       </div>
 
@@ -30,7 +29,7 @@ include("includes/main.php");
 
     <?php
 
-    getProcat();
+  gettel();
 
     ?>
 

@@ -62,7 +62,6 @@ else {
 <th>Invoice No:</th>
 <th>Product Title:</th>
 <th>Product Qty:</th>
-<th>Product Size:</th>
 <th>Order Date:</th>
 <th>Total Amount:</th>
 <th>Order Status:</th>
@@ -96,7 +95,6 @@ $product_id = $row_orders['product_id'];
 
 $qty = $row_orders['qty'];
 
-$size = $row_orders['size'];
 
 $order_status = $row_orders['order_status'];
 
@@ -138,7 +136,6 @@ echo $customer_email;
 
 <td><?php echo $qty; ?></td>
 
-<td><?php echo $size; ?></td>
 
 <td>
 <?php

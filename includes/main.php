@@ -73,17 +73,22 @@ if(!isset($_SESSION['customer_email'])){
         <nav class="main-nav">
           <ul class="categories">
 
-            <li class="categories__item">
-              <a class="categories__link" href="#">
-                Mens
-               
+          <li class="categories__item">
+              <a class="categories__link" href="bureau.php">
+                Ordinateur de bureau
               </a>
               </li>
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Womens
-               
+              <a class="categories__link" href="portatif.php">
+                Ordinateur portable
+            
+              </a>
+            </li>
+            <li class="categories__item">
+              <a class="categories__link" href="telephone.php">
+                Smartphones
+            
               </a>
             </li>
 
@@ -93,11 +98,7 @@ if(!isset($_SESSION['customer_email'])){
               </a>
             </li>
 
-            <li class="categories__item">
-              <a class="categories__link" href="localstore.php">
-                Local Stores
-              </a>
-            </li>
+           
 
           <li class="categories__item">
               <a class="categories__link" href="customer/my_account.php?my_orders">
