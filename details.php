@@ -27,7 +27,7 @@ echo "<script> window.open('index.php','_self') </script>";
 }
 else{
 
-//test
+
 
 $row_product = mysqli_fetch_array($run_product);
 

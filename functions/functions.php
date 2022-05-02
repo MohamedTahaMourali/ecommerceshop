@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost","root","","ecom_store");
+$db = mysqli_connect("localhost","root","root","ecom_store");
 
 /// IP address code starts /////
 function getRealUserIp(){
@@ -217,7 +217,23 @@ global $db;
 
 $aWhere = array();
 
+/// Manufacturers Code Starts ///
 
+if(isset($_REQUEST['man'])&&is_array($_REQUEST['man'])){
+
+foreach($_REQUEST['man'] as $sKey=>$sVal){
+
+if((int)$sVal!=0){
+
+$aWhere[] = 'manufacturer_id='.(int)$sVal;
+
+}
+
+}
+
+}
+
+/// Manufacturers Code Ends ///
 
 /// Products Categories Code Starts ///
 
